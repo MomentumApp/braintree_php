@@ -57,6 +57,13 @@ abstract class Braintree
     {
         $this->_attributes[$key] = $value;
     }
+    
+    /**
+     * Returns all attributes
+     */
+    public function getAttributes() {
+        return $this->_attributes;
+    }
 
     /**
      *
